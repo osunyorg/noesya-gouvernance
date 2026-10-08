@@ -15,6 +15,10 @@ for = ["**/*.png", "**/*.jpg", "**/*.jpeg", "**/*.gif", "**/*.webp"]
 Cache-Control = "max-age=31536000, no-transform, public"
 
 [[redirects]]
+from = "/documents/2025-actes-de-la-reunion-du-16-avril-2025/index.html"
+to = "/documents/2026-actes-de-la-reunion-du-16-avril-2025/"
+
+[[redirects]]
 from = "/projets/index.html"
 to = "/documents/"
 
