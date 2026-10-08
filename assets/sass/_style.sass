@@ -1,2 +1,3 @@
 main
-    min-height: calc(100vh + var(--header-height))
+    @include media-breakpoint-up(desktop)
+        min-height: calc(100vh + var(--header-height))
