@@ -1,31 +1,22 @@
 ---
 title: Menu principal
 items:
-- title: Fichiers
-  slug: fichiers
-  target: "/fichiers/"
+- title: Comité stratégique
+  slug: comite-strategique
+  target: "/comite-strategique/"
   kind: page
   new_tab: false
   children: []
   descendants_targets: []
-  path: "/files"
-  file: content/fr/files/_index.html
-- title: Personnes
-  slug: personnes
-  target: "/personnes/"
+  path: "/pages/comite-strategique"
+  file: content/fr/pages/comite-strategique/_index.html
+- title: Documents
+  slug: documents
+  target: "/documents/"
   kind: page
   new_tab: false
   children: []
   descendants_targets: []
-  path: "/persons"
-  file: content/fr/persons/_index.html
-- title: Organisations
-  slug: organisations
-  target: "/organisations/"
-  kind: page
-  new_tab: false
-  children: []
-  descendants_targets: []
-  path: "/organizations"
-  file: content/fr/organizations/_index.html
+  path: "/projects"
+  file: content/fr/projects/_index.html
 
