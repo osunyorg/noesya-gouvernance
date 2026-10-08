@@ -1,13 +1,11 @@
-theme: osuny
+theme: noesya-hugo-theme
 _merge: deep
 params:
+  ecosystem: gouvernance
   summary:
     position: hero
   search:
-    active: true
-  logo:
-    header: ''
-    footer: ''
+    active: false
   home:
     head:
       title: site
