@@ -7,6 +7,10 @@ osuny:
   website:
     id: 6a39412a-07c0-40be-80af-46d9c59349e0
 
+## PARAMS
+params:
+  _merge: deep
+  plausible: "noesya.coop"
 
 ## LANGUAGE
 defaultContentLanguage: fr
