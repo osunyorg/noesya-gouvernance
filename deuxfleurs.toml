@@ -19,6 +19,18 @@ from = "/documents/2025-actes-de-la-reunion-du-16-avril-2025/index.html"
 to = "/documents/2026-actes-de-la-reunion-du-16-avril-2025/"
 
 [[redirects]]
+from = "/documents/20221-gestion-des-incidents-de-securite-de-linformation/index.html"
+to = "/documents/2022-gestion-des-incidents-de-securite-de-linformation/"
+
+[[redirects]]
+from = "/documents/20221-offboarding-process/index.html"
+to = "/documents/2022-offboarding-process/"
+
+[[redirects]]
 from = "/projets/index.html"
 to = "/documents/"
+
+[[redirects]]
+from = "/documents/20221-onboarding-process/index.html"
+to = "/documents/2021-onboarding-process/"
 
