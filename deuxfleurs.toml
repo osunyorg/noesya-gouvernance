@@ -187,6 +187,10 @@ from = "/documents/2025/20260416-comite-strategique/index.html"
 to = "/documents/2026-actes-de-la-reunion-du-16-avril-2025/"
 
 [[redirects]]
+from = "/assets/documents/2023/noesya-rapport-2023-2024.pdf/index.html"
+to = "/documents/2024-rapport-dactivite-1/"
+
+[[redirects]]
 from = "/documents/2021/onboarding-process/index.html"
 to = "/documents/2021-onboarding-process/"
 
@@ -221,6 +225,10 @@ to = "/documents/2021-politique-de-protection-des-donnees-personnelles/"
 [[redirects]]
 from = "/assets/documents/2024/noesya-psi-1.0.pdf/index.html"
 to = "/documents/2024-politique-de-securite-des-systemes-dinformation/"
+
+[[redirects]]
+from = "/documents/2023/rapport-2023-2024/index.html"
+to = "/documents/2024-rapport-dactivite-1/"
 
 [[redirects]]
 from = "/assets/documents/2021/20220308-comite-strategique-noesya.pdf/index.html"
@@ -295,8 +303,16 @@ from = "/assets/documents/2021/20211210-comite-strategique-noesya.pdf/index.html
 to = "/documents/2021-actes-de-la-reunion-du-10-decembre-2021/"
 
 [[redirects]]
+from = "/documents/2024/rapport-2024-2025/index.html"
+to = "/documents/2025-rapport-dactivite/"
+
+[[redirects]]
 from = "/documents/2021/conditions-generales-de-vente/index.html"
 to = "/documents/2021-conditions-generales-de-vente/"
+
+[[redirects]]
+from = "/assets/documents/2024/noesya-rapport-2024-2025.pdf/index.html"
+to = "/documents/2025-rapport-dactivite/"
 
 [[redirects]]
 from = "/documents/2021/cdi-type/index.html"
