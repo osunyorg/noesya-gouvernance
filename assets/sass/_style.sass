@@ -109,18 +109,33 @@ main
         background-color: var(--color-background-alt)
         border-radius: $btn-border-radius
         padding: space(8)
+        position: relative
 
+    .project
+        position: static
+        .project-content
+            .project-title
+                @include body-text
+        .media
+            align-items: center
+            aspect-ratio: 1
+            display: flex
+            justify-content: center
+
+    @include media-breakpoint-down(desktop)
+        .project
+            flex-direction: row
+            gap: var(--grid-gutter)
+            .media
+                margin: 0
+                width: columns(3)
+                img
+                    height: 40px
     @include in-page-without-sidebar
         > li
-            position: relative
             transition: background $color-duration ease
             &:hover
                 background: $color-border-alt
-        .project
-            position: static
-            .project-content
-                .project-title
-                    @include body-text
         &--list
             .project
                 width: columns(4)
@@ -128,10 +143,6 @@ main
         &--grid
             @include grid(4)
             .media
-                align-items: center
-                aspect-ratio: 1
-                display: flex
-                justify-content: center
                 img
                     height: pxToRem(86)
 
