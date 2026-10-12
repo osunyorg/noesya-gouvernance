@@ -11,3 +11,4 @@ projects:
   see_all_in_program: Voir tous les documents de la formation
   see_all_in_category: Voir tous les documents “{{ .Title }}”
   title: Documents
+  category_title: Catégories

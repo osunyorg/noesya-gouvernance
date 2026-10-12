@@ -1,9 +1,10 @@
 {{ $project := .project }}
 {{ $project_image := .project.Params.image }}
 {{ $project = site.GetPage $project.File.Path }}
+{{ $category_title := i18n "projects.category_title" }}
 
 {{ range $project.Params.taxonomies }}
-  {{ if eq .name "Catégories" }}
+  {{ if eq .name $category_title }}
     {{ range .categories }}
       {{ $category := site.GetPage .path }}
       {{ $project_image = $category.Params.image }}

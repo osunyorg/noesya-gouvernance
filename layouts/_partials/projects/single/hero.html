@@ -1,6 +1,8 @@
 {{ $hero_image := .Params.image }}
+{{ $category_title := i18n "projects.category_title" }}
+
 {{ range .Params.taxonomies }}
-  {{ if eq .name "Catégories" }}
+  {{ if eq .name $category_title }}
     {{ range .categories }}
       {{ $category := site.GetPage .path }}
       {{ $hero_image = $category.Params.image }}
