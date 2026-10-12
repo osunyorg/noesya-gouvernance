@@ -27,6 +27,14 @@ from = "/documents/2021/20220308-comite-strategique/index.html"
 to = "/documents/2022-actes-de-la-reunion-du-8-mars-2022/"
 
 [[redirects]]
+from = "/documents/2024/psi/index.html"
+to = "/documents/2024-politique-de-securite-des-systemes-dinformation/"
+
+[[redirects]]
+from = "/assets/documents/2021/declaration-d-adhesion-scop.pdf/index.html"
+to = "/documents/2021-declaration-dadhesion-scop/"
+
+[[redirects]]
 from = "/documents/2021/20211006-comite-strategique/index.html"
 to = "/documents/2021-actes-de-la-reunion-du-4-octobre-2021/"
 
@@ -45,6 +53,10 @@ to = "/documents/2025-attestation-de-regularite-fiscale/"
 [[redirects]]
 from = "/documents/2024/kbis-paris/index.html"
 to = "/documents/2026-kbis-etablissement-paris-2/"
+
+[[redirects]]
+from = "/documents/2021/statuts/index.html"
+to = "/documents/2024-statuts-1/"
 
 [[redirects]]
 from = "/assets/documents/2025/20260416-comite-strategique.pdf/index.html"
@@ -79,8 +91,16 @@ from = "/documents/2021/20211210-comite-strategique/index.html"
 to = "/documents/2021-actes-de-la-reunion-du-10-decembre-2021/"
 
 [[redirects]]
+from = "/assets/documents/2023/cdi-type-1.1.pdf/index.html"
+to = "/documents/2021-contrat-de-travail-type/"
+
+[[redirects]]
 from = "/documents/20221-gestion-des-incidents-de-securite-de-linformation/index.html"
 to = "/documents/2022-gestion-des-incidents-de-securite-de-linformation/"
+
+[[redirects]]
+from = "/assets/documents/2024/noesya-psi-1.0.pdf/index.html"
+to = "/documents/2024-politique-de-securite-des-systemes-dinformation/"
 
 [[redirects]]
 from = "/assets/documents/2021/20220308-comite-strategique-noesya.pdf/index.html"
@@ -107,12 +127,32 @@ from = "/documents/2022/20220627-comite-strategique/index.html"
 to = "/documents/2023-actes-de-la-reunion-du-16-mars-2023/"
 
 [[redirects]]
+from = "/assets/documents/2021/statuts.docx/index.html"
+to = "/documents/2024-statuts-1/"
+
+[[redirects]]
 from = "/documents/2023/20231123-comite-strategique/index.html"
 to = "/documents/2023-actes-de-la-reunion-du-23-novembre-2023/"
 
 [[redirects]]
+from = "/assets/documents/2021/noesya-cgv-1.0.pdf/index.html"
+to = "/documents/2021-conditions-generales-de-vente/"
+
+[[redirects]]
 from = "/assets/documents/2021/20211210-comite-strategique-noesya.pdf/index.html"
 to = "/documents/2021-actes-de-la-reunion-du-10-decembre-2021/"
+
+[[redirects]]
+from = "/documents/2021/conditions-generales-de-vente/index.html"
+to = "/documents/2021-conditions-generales-de-vente/"
+
+[[redirects]]
+from = "/documents/2021/cdi-type/index.html"
+to = "/documents/2021-contrat-de-travail-type/"
+
+[[redirects]]
+from = "/documents/2021/declaration-d-adhesion-scop/index.html"
+to = "/documents/2021-declaration-dadhesion-scop/"
 
 [[redirects]]
 from = "/assets/documents/2024/kbis.pdf/index.html"
