@@ -9,3 +9,13 @@ params:
   home:
     head:
       title: site
+  projects:
+    index:
+      options:
+        summary: false
+    single:
+      meta:
+        options:
+          share: false
+          year: false
+          with_labels: false
