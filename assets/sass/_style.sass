@@ -13,6 +13,18 @@ main
     @include media-breakpoint-up(desktop)
         min-height: calc(100vh + var(--header-height))
 
+.hero
+    @include media-breakpoint-up(desktop)
+        .content
+            align-items: center
+        figure
+            padding-top: pxToRem(45)
+            margin-top: $spacing-5
+            .is-svg
+                width: offset(1)
+                img
+                    aspect-ratio: 1
+
 .block-features
     &--grid
         .features
@@ -126,15 +138,44 @@ main
 
 .block-files
     .files
+        @include in-page-without-sidebar
+            &--grid
+                @include grid(2)
+
         .file
-            background: var(--color-background-alt)
-            border-radius: $btn-border-radius
-            padding: $spacing-2
+            @include icon(download-line, before)
+            @include icon(document, after)
             &::before
-                border-color: $color-border-alt
-                border-radius: 2px
+                align-items: center
+                background: var(--color-text)
+                border: none
+                border-radius: 100%
+                color: var(--color-background)
+                display: flex
+                font-size: pxToRem(30)
+                justify-content: center
+                margin-right: var(--grid-gutter)
+            &::after
+                font-size: pxToRem(130)
+                order: -1
+            a,
+            figcaption
+                @include body-text
             figcaption
                 color: var(--color-text-alt)
 
+            @include media-breakpoint-down(desktop)
+                flex-direction: column
+                &::before
+                    height: $spacing-5
+                    width: $spacing-5
+                    margin-left: pxToRem(90)
+                    transform: translateY(-50%)
+
             @include media-breakpoint-up(desktop)
-                padding: $spacing-3
+                background: var(--color-background-alt)
+                border-radius: $btn-border-radius
+                padding: var(--grid-gutter)
+                &::before 
+                    margin-top: auto
+                    transform: translate(-50%, 50%)
