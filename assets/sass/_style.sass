@@ -1,13 +1,20 @@
+@mixin category-button
+    @include button-small
+    @include body-text
+    --btn-color: var(--color-text-alt)
+    --btn-border: 1px solid #{$color-border-alt}
+    --btn-hover-background: var(--color-text)
+    --btn-hover-color: var(--color-background)
+    --btn-hover-border: 1px solid var(--color-text)
+    --btn-small-padding: #{space()} #{$spacing-2}
+    min-width: unset
+    
 main
     @include media-breakpoint-up(desktop)
         min-height: calc(100vh + var(--header-height))
 
 .block-features
     &--grid
-        @include in-page-without-sidebar
-            .features
-                @include grid(2)
-
         .features
             .feature
                 .name
@@ -22,6 +29,10 @@ main
                     figure.media--image 
                         img
                             filter: grayscale(0)
+
+        @include in-page-without-sidebar
+            .features
+                @include grid(2)
         
         @include media-breakpoint-down(desktop)
             .features
@@ -31,9 +42,51 @@ main
 
 .page-strategic
     .projects--list
+        > li
+            @include icon(download-line, before, true)
+            align-items: baseline
+            display: flex
+            gap: $spacing-2
+            .project-title a::after
+                content: none
+
         @include media-breakpoint-up(desktop)
             > li
                 width: columns(4)
+
+.projects__section,
+.projects_categories__term
+    .taxonomies-list--inline
+        gap: $spacing-5
+        .taxonomy-categories
+            > span
+                @include h3
+                font-family: $body-font-family
+                display: block
+                margin-bottom: $spacing-3
+
+        .taxonomy-categories-list
+            display: flex
+            flex-wrap: wrap
+            gap: $spacing-1
+            a, span
+                @include category-button
+            > li
+                .extendable-button[aria-expanded="true"]
+                    color: var(--color-background)
+                    background: var(--color-text)
+                ul
+                    border-top: none
+                    padding-left: 0
+
+    @include media-breakpoint-down(desktop)
+        .taxonomies-list--inline
+            .taxonomy-categories + .taxonomy-categories
+                margin-top: $spacing-4
+
+    @include media-breakpoint-up(desktop)
+        .taxonomies-list--inline
+            grid-template-columns: repeat(1, 1fr)
 
 .projects
     > li
@@ -46,7 +99,7 @@ main
             position: relative
             transition: background $color-duration ease
             &:hover
-                background: $card-hovered-background
+                background: $color-border-alt
         .project
             position: static
             .project-content
@@ -65,12 +118,7 @@ main
             align-items: flex-start
             li
                 a
-                    @include body-text
-                    border: 1px solid $color-border
-                    color: var(--color-text-alt)
-                    padding: $spacing-1
-                    border-radius: $btn-border-radius
-                    text-decoration: none
+                    @include category-button
 
         @include media-breakpoint-down(desktop)
             &, .taxonomy-children
@@ -83,7 +131,7 @@ main
             border-radius: $btn-border-radius
             padding: $spacing-2
             &::before
-                border-color: rgba(0,0,0,0.1)
+                border-color: $color-border-alt
                 border-radius: 2px
             figcaption
                 color: var(--color-text-alt)

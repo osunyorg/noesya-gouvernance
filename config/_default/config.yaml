@@ -9,10 +9,19 @@ params:
   home:
     head:
       title: site
+  categories:
+    single:
+      taxonomies:
+        display: true
   projects:
     index:
       options:
         summary: false
+        categories: false
+      taxonomies:
+        display: true
+        layout: inline
+        show_name: true
     single:
       meta:
         options:
