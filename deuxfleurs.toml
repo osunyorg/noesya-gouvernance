@@ -15,6 +15,14 @@ for = ["**/*.png", "**/*.jpg", "**/*.jpeg", "**/*.gif", "**/*.webp"]
 Cache-Control = "max-age=31536000, no-transform, public"
 
 [[redirects]]
+from = "/assets/documents/2021/noesya-ofp-1.0.pdf/index.html"
+to = "/documents/2022-offboarding-process/"
+
+[[redirects]]
+from = "/assets/documents/2021/noesya-onp-1.0.pdf/index.html"
+to = "/documents/2021-onboarding-process/"
+
+[[redirects]]
 from = "/assets/documents/2021/noesya-rmp-1.0.pdf/index.html"
 to = "/documents/2021-removable-media-policy/"
 
@@ -61,6 +69,10 @@ to = "/documents/2021-removable-media-policy/"
 [[redirects]]
 from = "/documents/2024/paq/index.html"
 to = "/documents/2024-plan-dassurance-qualite/"
+
+[[redirects]]
+from = "/documents/2021/gestion-des-incidents-de-securite-de-l-information/index.html"
+to = "/documents/2022-gestion-des-incidents-de-securite-de-linformation/"
 
 [[redirects]]
 from = "/assets/documents/2021/declaration-d-adhesion-scop.pdf/index.html"
@@ -131,8 +143,16 @@ from = "/documents/2025/20260416-comite-strategique/index.html"
 to = "/documents/2026-actes-de-la-reunion-du-16-avril-2025/"
 
 [[redirects]]
+from = "/documents/2021/onboarding-process/index.html"
+to = "/documents/2021-onboarding-process/"
+
+[[redirects]]
 from = "/assets/documents/2021/20211006-comite-strategique-noesya.pdf/index.html"
 to = "/documents/2021-actes-de-la-reunion-du-4-octobre-2021/"
+
+[[redirects]]
+from = "/assets/documents/2021/noesya-ppdp-1.0.pdf/index.html"
+to = "/documents/2021-politique-de-protection-des-donnees-personnelles/"
 
 [[redirects]]
 from = "/documents/2024/20250606-comite-strategique/index.html"
@@ -147,8 +167,8 @@ from = "/assets/documents/2023/cdi-type-1.1.pdf/index.html"
 to = "/documents/2021-contrat-de-travail-type/"
 
 [[redirects]]
-from = "/documents/20221-gestion-des-incidents-de-securite-de-linformation/index.html"
-to = "/documents/2022-gestion-des-incidents-de-securite-de-linformation/"
+from = "/documents/2021/politique-de-protection-des-donnes-personnelles/index.html"
+to = "/documents/2021-politique-de-protection-des-donnees-personnelles/"
 
 [[redirects]]
 from = "/assets/documents/2024/noesya-psi-1.0.pdf/index.html"
@@ -171,6 +191,10 @@ from = "/assets/documents/2022/attestation-de-revision.pdf/index.html"
 to = "/documents/2022-attestation-de-revision-cooperative-1/"
 
 [[redirects]]
+from = "/documents/2021/offboarding-process/index.html"
+to = "/documents/2022-offboarding-process/"
+
+[[redirects]]
 from = "/documents/2023/attestation-de-revision/index.html"
 to = "/documents/2024-attestation-de-revision-cooperative/"
 
@@ -181,6 +205,10 @@ to = "/documents/2023-actes-de-la-reunion-du-16-mars-2023/"
 [[redirects]]
 from = "/assets/documents/2021/statuts.docx/index.html"
 to = "/documents/2024-statuts-1/"
+
+[[redirects]]
+from = "/assets/documents/2021/noesya-gisi-1.0.pdf/index.html"
+to = "/documents/2022-gestion-des-incidents-de-securite-de-linformation/"
 
 [[redirects]]
 from = "/documents/2023/20231123-comite-strategique/index.html"
@@ -215,16 +243,16 @@ from = "/documents/2024/attestation-de-vigilance/index.html"
 to = "/documents/2025-attestation-de-vigilance/"
 
 [[redirects]]
+from = "/assets/documents/2021/noesya-ppp-1.0.pdf/index.html"
+to = "/documents/2021-password-protection-policy/"
+
+[[redirects]]
 from = "/assets/documents/2023/20231123-comite-strategique.pdf/index.html"
 to = "/documents/2023-actes-de-la-reunion-du-23-novembre-2023/"
 
 [[redirects]]
 from = "/assets/documents/2022/20230316-comite-strategique.pdf/index.html"
 to = "/documents/2023-actes-de-la-reunion-du-16-mars-2023/"
-
-[[redirects]]
-from = "/documents/20221-offboarding-process/index.html"
-to = "/documents/2022-offboarding-process/"
 
 [[redirects]]
 from = "/assets/documents/2021/noesya-wcp-1.0.pdf/index.html"
@@ -235,10 +263,10 @@ from = "/assets/documents/2024/kbis-paris.pdf/index.html"
 to = "/documents/2026-kbis-etablissement-paris-2/"
 
 [[redirects]]
-from = "/projets/index.html"
-to = "/documents/"
+from = "/documents/2021/password-protection-policy/index.html"
+to = "/documents/2021-password-protection-policy/"
 
 [[redirects]]
-from = "/documents/20221-onboarding-process/index.html"
-to = "/documents/2021-onboarding-process/"
+from = "/projets/index.html"
+to = "/documents/"
 
