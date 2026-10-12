@@ -479,6 +479,10 @@ from = "/assets/documents/2024/kbis-paris.pdf/index.html"
 to = "/documents/2026-kbis-etablissement-paris-2/"
 
 [[redirects]]
+from = "/cgv/index.html"
+to = "/documents/2021-conditions-generales-de-vente/"
+
+[[redirects]]
 from = "/documents/2023/comptes-annuels/index.html"
 to = "/documents/2024-comptes-annuels-1/"
 
