@@ -29,6 +29,12 @@ main
                     figure.media--image
                         width: columns(6)
 
+.page-strategic
+    .projects--list
+        @include media-breakpoint-up(desktop)
+            > li
+                width: columns(4)
+
 .projects
     > li
         background-color: var(--color-background-alt)
@@ -43,7 +49,6 @@ main
                 background: $card-hovered-background
         .project
             position: static
-            margin-right: auto
             .project-content
                 .project-title
                     @include body-text
