@@ -39,12 +39,24 @@ from = "/assets/documents/2024/noesya-pra-1.0.pdf/index.html"
 to = "/documents/2024-plan-de-reprise-dactivite/"
 
 [[redirects]]
+from = "/assets/documents/2021/noesya-comptes-annuels-2021-2022.pdf/index.html"
+to = "/documents/2022-comptes-annuels-3/"
+
+[[redirects]]
 from = "/assets/documents/2024/20250606-comite-strategique.pdf/index.html"
 to = "/documents/2025-actes-de-la-reunion-du-6-juin-2025/"
 
 [[redirects]]
 from = "/documents/2021/20220308-comite-strategique/index.html"
 to = "/documents/2022-actes-de-la-reunion-du-8-mars-2022/"
+
+[[redirects]]
+from = "/assets/documents/2023/noesya-liasse-fiscale-2023-2024.pdf/index.html"
+to = "/documents/2024-liasse-fiscale-1/"
+
+[[redirects]]
+from = "/documents/2022/charte-numerique-responsable/index.html"
+to = "/documents/2022-charte-numerique-responsable/"
 
 [[redirects]]
 from = "/documents/2024/psi/index.html"
@@ -59,12 +71,24 @@ from = "/documents/2024/pas/index.html"
 to = "/documents/2024-plan-dassurance-securite/"
 
 [[redirects]]
+from = "/documents/2021/data-classification-policy/index.html"
+to = "/documents/2021-data-classification-policy/"
+
+[[redirects]]
 from = "/assets/documents/2024/noesya-dtap-1.0.pdf/index.html"
 to = "/documents/2024-development-testing-acceptance-and-production/"
 
 [[redirects]]
+from = "/documents/2022/liasse-fiscale/index.html"
+to = "/documents/2023-liasse-fiscale-2/"
+
+[[redirects]]
 from = "/documents/2021/removable-media-policy/index.html"
 to = "/documents/2021-removable-media-policy/"
+
+[[redirects]]
+from = "/documents/2021/grille-de-salaires/index.html"
+to = "/documents/2021-grille-de-salaires/"
 
 [[redirects]]
 from = "/documents/2024/paq/index.html"
@@ -73,6 +97,10 @@ to = "/documents/2024-plan-dassurance-qualite/"
 [[redirects]]
 from = "/documents/2021/gestion-des-incidents-de-securite-de-l-information/index.html"
 to = "/documents/2022-gestion-des-incidents-de-securite-de-linformation/"
+
+[[redirects]]
+from = "/assets/documents/2021/grille-de-tarifs.pdf/index.html"
+to = "/documents/2021-grille-de-tarifs/"
 
 [[redirects]]
 from = "/assets/documents/2021/declaration-d-adhesion-scop.pdf/index.html"
@@ -107,12 +135,24 @@ from = "/documents/2024/kbis-paris/index.html"
 to = "/documents/2026-kbis-etablissement-paris-2/"
 
 [[redirects]]
+from = "/assets/documents/2022/noesya-comptes-annuels-2022-2023.pdf/index.html"
+to = "/documents/2023-comptes-annuels-2/"
+
+[[redirects]]
 from = "/documents/2021/statuts/index.html"
 to = "/documents/2024-statuts-1/"
 
 [[redirects]]
+from = "/documents/2024/liasse-fiscale/index.html"
+to = "/documents/2025-liasse-fiscale/"
+
+[[redirects]]
 from = "/assets/documents/2025/20260416-comite-strategique.pdf/index.html"
 to = "/documents/2026-actes-de-la-reunion-du-16-avril-2025/"
+
+[[redirects]]
+from = "/documents/2021/grille-de-tarifs/index.html"
+to = "/documents/2021-grille-de-tarifs/"
 
 [[redirects]]
 from = "/documents/2025-actes-de-la-reunion-du-16-avril-2025/index.html"
@@ -125,6 +165,10 @@ to = "/documents/2022-actes-de-la-reunion-du-27-juin-2022/"
 [[redirects]]
 from = "/documents/2021/wireless-communication-policy/index.html"
 to = "/documents/2021-wireless-communication-policy/"
+
+[[redirects]]
+from = "/assets/documents/2024/noesya-comptes-annuels-2024-2025.pdf/index.html"
+to = "/documents/2025-comptes-annuels/"
 
 [[redirects]]
 from = "/documents/2022/attestation-de-revision/index.html"
@@ -155,6 +199,10 @@ from = "/assets/documents/2021/noesya-ppdp-1.0.pdf/index.html"
 to = "/documents/2021-politique-de-protection-des-donnees-personnelles/"
 
 [[redirects]]
+from = "/assets/documents/2023/grille-de-salaires-1.2.pdf/index.html"
+to = "/documents/2021-grille-de-salaires/"
+
+[[redirects]]
 from = "/documents/2024/20250606-comite-strategique/index.html"
 to = "/documents/2025-actes-de-la-reunion-du-6-juin-2025/"
 
@@ -179,12 +227,24 @@ from = "/assets/documents/2021/20220308-comite-strategique-noesya.pdf/index.html
 to = "/documents/2022-actes-de-la-reunion-du-8-mars-2022/"
 
 [[redirects]]
+from = "/documents/2021/comptes-annuels/index.html"
+to = "/documents/2022-comptes-annuels-3/"
+
+[[redirects]]
 from = "/documents/2021/20220627-comite-strategique/index.html"
 to = "/documents/2022-actes-de-la-reunion-du-27-juin-2022/"
 
 [[redirects]]
+from = "/assets/documents/2021/noesya-ep-1.0.pdf/index.html"
+to = "/documents/2021-email-policy/"
+
+[[redirects]]
 from = "/assets/documents/2023/attestation-de-revision.pdf/index.html"
 to = "/documents/2024-attestation-de-revision-cooperative/"
+
+[[redirects]]
+from = "/assets/documents/2021/noesya-liasse-fiscale-2021-2022.pdf/index.html"
+to = "/documents/2022-liasse-fiscale-3/"
 
 [[redirects]]
 from = "/assets/documents/2022/attestation-de-revision.pdf/index.html"
@@ -199,12 +259,24 @@ from = "/documents/2023/attestation-de-revision/index.html"
 to = "/documents/2024-attestation-de-revision-cooperative/"
 
 [[redirects]]
+from = "/assets/documents/2022/charte-numerique-responsable.pdf/index.html"
+to = "/documents/2022-charte-numerique-responsable/"
+
+[[redirects]]
 from = "/documents/2022/20220627-comite-strategique/index.html"
 to = "/documents/2023-actes-de-la-reunion-du-16-mars-2023/"
 
 [[redirects]]
 from = "/assets/documents/2021/statuts.docx/index.html"
 to = "/documents/2024-statuts-1/"
+
+[[redirects]]
+from = "/assets/documents/2024/noesya-liasse-fiscale-2024-2025.pdf/index.html"
+to = "/documents/2025-liasse-fiscale/"
+
+[[redirects]]
+from = "/documents/2021/liasse-fiscale/index.html"
+to = "/documents/2022-liasse-fiscale-3/"
 
 [[redirects]]
 from = "/assets/documents/2021/noesya-gisi-1.0.pdf/index.html"
@@ -235,12 +307,20 @@ from = "/documents/2021/declaration-d-adhesion-scop/index.html"
 to = "/documents/2021-declaration-dadhesion-scop/"
 
 [[redirects]]
+from = "/assets/documents/2023/noesya-comptes-annuels-2023-2024.pdf/index.html"
+to = "/documents/2024-comptes-annuels-1/"
+
+[[redirects]]
 from = "/assets/documents/2024/kbis.pdf/index.html"
 to = "/documents/2026-kbis-1/"
 
 [[redirects]]
 from = "/documents/2024/attestation-de-vigilance/index.html"
 to = "/documents/2025-attestation-de-vigilance/"
+
+[[redirects]]
+from = "/documents/2021/accord-de-participation/index.html"
+to = "/documents/2021-accord-de-participation/"
 
 [[redirects]]
 from = "/assets/documents/2021/noesya-ppp-1.0.pdf/index.html"
@@ -251,8 +331,40 @@ from = "/assets/documents/2023/20231123-comite-strategique.pdf/index.html"
 to = "/documents/2023-actes-de-la-reunion-du-23-novembre-2023/"
 
 [[redirects]]
+from = "/assets/documents/2022/charte-sobriete-numerique-1.2.pdf/index.html"
+to = "/documents/2021-charte-de-sobriete-numerique/"
+
+[[redirects]]
+from = "/assets/documents/2021/accord-de-participation.pdf/index.html"
+to = "/documents/2021-accord-de-participation/"
+
+[[redirects]]
+from = "/documents/2024/comptes-annuels/index.html"
+to = "/documents/2025-comptes-annuels/"
+
+[[redirects]]
+from = "/assets/documents/2021/noesya-dcp-1.0.pdf/index.html"
+to = "/documents/2021-data-classification-policy/"
+
+[[redirects]]
+from = "/documents/2023/liasse-fiscale/index.html"
+to = "/documents/2024-liasse-fiscale-1/"
+
+[[redirects]]
 from = "/assets/documents/2022/20230316-comite-strategique.pdf/index.html"
 to = "/documents/2023-actes-de-la-reunion-du-16-mars-2023/"
+
+[[redirects]]
+from = "/documents/2021/email-policy/index.html"
+to = "/documents/2021-email-policy/"
+
+[[redirects]]
+from = "/documents/2021/acceptable-usage-policy/index.html"
+to = "/documents/2021-acceptable-usage-policy/"
+
+[[redirects]]
+from = "/documents/2021/charte-sobriete-numerique/index.html"
+to = "/documents/2021-charte-de-sobriete-numerique/"
 
 [[redirects]]
 from = "/assets/documents/2021/noesya-wcp-1.0.pdf/index.html"
@@ -263,10 +375,26 @@ from = "/assets/documents/2024/kbis-paris.pdf/index.html"
 to = "/documents/2026-kbis-etablissement-paris-2/"
 
 [[redirects]]
+from = "/documents/2023/comptes-annuels/index.html"
+to = "/documents/2024-comptes-annuels-1/"
+
+[[redirects]]
+from = "/assets/documents/2021/noesya-aup-1.0.pdf/index.html"
+to = "/documents/2021-acceptable-usage-policy/"
+
+[[redirects]]
 from = "/documents/2021/password-protection-policy/index.html"
 to = "/documents/2021-password-protection-policy/"
 
 [[redirects]]
+from = "/documents/2022/comptes-annuels/index.html"
+to = "/documents/2023-comptes-annuels-2/"
+
+[[redirects]]
 from = "/projets/index.html"
 to = "/documents/"
+
+[[redirects]]
+from = "/assets/documents/2022/noesya-liasse-fiscale-2022-2023.pdf/index.html"
+to = "/documents/2023-liasse-fiscale-2/"
 
