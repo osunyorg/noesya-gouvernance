@@ -15,8 +15,20 @@ for = ["**/*.png", "**/*.jpg", "**/*.jpeg", "**/*.gif", "**/*.webp"]
 Cache-Control = "max-age=31536000, no-transform, public"
 
 [[redirects]]
+from = "/assets/documents/2021/noesya-rmp-1.0.pdf/index.html"
+to = "/documents/2021-removable-media-policy/"
+
+[[redirects]]
+from = "/documents/2024/pra/index.html"
+to = "/documents/2024-plan-de-reprise-dactivite/"
+
+[[redirects]]
 from = "/assets/documents/2024/attestation-de-vigilance.pdf/index.html"
 to = "/documents/2025-attestation-de-vigilance/"
+
+[[redirects]]
+from = "/assets/documents/2024/noesya-pra-1.0.pdf/index.html"
+to = "/documents/2024-plan-de-reprise-dactivite/"
 
 [[redirects]]
 from = "/assets/documents/2024/20250606-comite-strategique.pdf/index.html"
@@ -29,6 +41,26 @@ to = "/documents/2022-actes-de-la-reunion-du-8-mars-2022/"
 [[redirects]]
 from = "/documents/2024/psi/index.html"
 to = "/documents/2024-politique-de-securite-des-systemes-dinformation/"
+
+[[redirects]]
+from = "/documents/2021/remote-access-policy/index.html"
+to = "/documents/2021-remote-access-policy/"
+
+[[redirects]]
+from = "/documents/2024/pas/index.html"
+to = "/documents/2024-plan-dassurance-securite/"
+
+[[redirects]]
+from = "/assets/documents/2024/noesya-dtap-1.0.pdf/index.html"
+to = "/documents/2024-development-testing-acceptance-and-production/"
+
+[[redirects]]
+from = "/documents/2021/removable-media-policy/index.html"
+to = "/documents/2021-removable-media-policy/"
+
+[[redirects]]
+from = "/documents/2024/paq/index.html"
+to = "/documents/2024-plan-dassurance-qualite/"
 
 [[redirects]]
 from = "/assets/documents/2021/declaration-d-adhesion-scop.pdf/index.html"
@@ -47,8 +79,16 @@ from = "/documents/2024/kbis/index.html"
 to = "/documents/2026-kbis-1/"
 
 [[redirects]]
+from = "/assets/documents/2024/noesya-pas-1.0.pdf/index.html"
+to = "/documents/2024-plan-dassurance-securite/"
+
+[[redirects]]
 from = "/documents/2024/attestation-de-regularite-fiscale/index.html"
 to = "/documents/2025-attestation-de-regularite-fiscale/"
+
+[[redirects]]
+from = "/assets/documents/2024/noesya-paq-1.0.pdf/index.html"
+to = "/documents/2024-plan-dassurance-qualite/"
 
 [[redirects]]
 from = "/documents/2024/kbis-paris/index.html"
@@ -71,8 +111,20 @@ from = "/assets/documents/2021/20220627-comite-strategique-noesya.pdf/index.html
 to = "/documents/2022-actes-de-la-reunion-du-27-juin-2022/"
 
 [[redirects]]
+from = "/documents/2021/wireless-communication-policy/index.html"
+to = "/documents/2021-wireless-communication-policy/"
+
+[[redirects]]
 from = "/documents/2022/attestation-de-revision/index.html"
 to = "/documents/2022-attestation-de-revision-cooperative-1/"
+
+[[redirects]]
+from = "/assets/documents/2021/noesya-rap-1.0.pdf/index.html"
+to = "/documents/2021-remote-access-policy/"
+
+[[redirects]]
+from = "/documents/2024/dtap/index.html"
+to = "/documents/2024-development-testing-acceptance-and-production/"
 
 [[redirects]]
 from = "/documents/2025/20260416-comite-strategique/index.html"
@@ -173,6 +225,10 @@ to = "/documents/2023-actes-de-la-reunion-du-16-mars-2023/"
 [[redirects]]
 from = "/documents/20221-offboarding-process/index.html"
 to = "/documents/2022-offboarding-process/"
+
+[[redirects]]
+from = "/assets/documents/2021/noesya-wcp-1.0.pdf/index.html"
+to = "/documents/2021-wireless-communication-policy/"
 
 [[redirects]]
 from = "/assets/documents/2024/kbis-paris.pdf/index.html"
