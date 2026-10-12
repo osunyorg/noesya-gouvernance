@@ -1,0 +1,19 @@
+{{ $hero_image := .Params.image }}
+{{ range .Params.taxonomies }}
+  {{ if eq .name "Catégories" }}
+    {{ range .categories }}
+      {{ $category := site.GetPage .path }}
+      {{ $hero_image = $category.Params.image }}
+    {{ end }}
+  {{ end }}
+{{ end }}
+
+{{ $title := partial "header/helpers/GetTitle" . }}
+{{ $share := site.Params.projects.share_links.enabled | default site.Params.share_links.enabled }}
+{{ partial "header/hero.html" (dict
+  "title" $title
+  "image" $hero_image
+  "sizes" site.Params.image_sizes.sections.projects.hero_single
+  "meta" ( partial "projects/single/meta.html" . )
+  "context" .
+) }}

@@ -9,6 +9,11 @@ params:
   home:
     head:
       title: site
+  components:
+    lightbox:
+      disabled: false
+      in_hero:
+        disabled: true
   categories:
     single:
       taxonomies:

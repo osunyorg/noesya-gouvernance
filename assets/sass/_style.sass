@@ -14,16 +14,20 @@ main
         min-height: calc(100vh + var(--header-height))
 
 .hero
+    @include media-breakpoint-down(desktop)
+        margin-bottom: var(--grid-gutter) !important
+        .is-svg
+            display: none
     @include media-breakpoint-up(desktop)
         .content
             align-items: center
         figure
             padding-top: pxToRem(45)
             margin-top: $spacing-5
-            .is-svg
-                width: offset(1)
+            width: columns(3) !important
+            .is-svg 
                 img
-                    aspect-ratio: 1
+                    width: offset(1) !important
 
 .block-features
     &--grid
@@ -104,7 +108,7 @@ main
     > li
         background-color: var(--color-background-alt)
         border-radius: $btn-border-radius
-        padding: $spacing-3
+        padding: space(8)
 
     @include in-page-without-sidebar
         > li
@@ -123,6 +127,13 @@ main
 
         &--grid
             @include grid(4)
+            .media
+                align-items: center
+                aspect-ratio: 1
+                display: flex
+                justify-content: center
+                img
+                    height: pxToRem(86)
 
 .projects__page
     .projects-taxonomies
