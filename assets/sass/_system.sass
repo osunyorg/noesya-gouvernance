@@ -1,0 +1,20 @@
+
+main
+    @include media-breakpoint-up(desktop)
+        min-height: calc(100vh + var(--header-height))
+
+.hero
+    @include media-breakpoint-down(desktop)
+        margin-bottom: var(--grid-gutter) !important
+        .is-svg
+            display: none
+    @include media-breakpoint-up(desktop)
+        .content
+            align-items: center
+        figure
+            padding-top: pxToRem(45)
+            margin-top: $spacing-5
+            width: columns(3) !important
+            .is-svg 
+                img
+                    width: offset(1) !important

@@ -33,3 +33,11 @@ params:
           share: false
           year: false
           with_labels: false
+  image_sizes:
+    sections:
+      projects:
+        layouts:
+          grid:
+            mobile: 39
+            tablet: 81
+            desktop: 81

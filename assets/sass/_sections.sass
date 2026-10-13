@@ -1,0 +1,121 @@
+.page__home 
+    main
+        padding-bottom: 130px
+        background:
+            image: url("/assets/images/crop.png")
+            position: 85% bottom
+            repeat: no-repeat
+
+    @include media-breakpoint-up(desktop)
+        main
+            background-attachment: fixed
+
+// projects
+.projects__section,
+.projects_categories__term
+    .taxonomies-list--inline
+        gap: $spacing-5
+        .taxonomy-categories
+            > span
+                @include h3
+                font-family: $body-font-family
+                display: block
+                margin-bottom: $spacing-3
+
+        .taxonomy-categories-list
+            display: flex
+            flex-wrap: wrap
+            gap: $spacing-1
+            a, span
+                @include category-button
+            > li
+                .extendable-button[aria-expanded="true"]
+                    color: var(--color-background)
+                    background: var(--color-text)
+                ul
+                    border-top: none
+                    padding-left: 0
+
+    @include media-breakpoint-down(desktop)
+        .taxonomies-list--inline
+            .taxonomy-categories + .taxonomy-categories
+                margin-top: $spacing-4
+
+    @include media-breakpoint-up(desktop)
+        .taxonomies-list--inline
+            grid-template-columns: repeat(1, 1fr)
+
+.projects__page
+    .projects-taxonomies
+        .taxonomy-children
+            align-items: flex-start
+            li
+                a
+                    @include category-button
+
+        @include media-breakpoint-down(desktop)
+            &, .taxonomy-children
+                gap: $spacing-3 $spacing-2 !important
+
+.page-strategic
+    .projects--list
+        > li
+            @include icon(download-line, before, true)
+            align-items: baseline
+            display: flex
+            gap: $spacing-2
+            .project-title a::after
+                content: none
+
+        @include media-breakpoint-up(desktop)
+            > li
+                width: columns(4)
+
+.projects
+    > li
+        background-color: var(--color-background-alt)
+        border-radius: $btn-border-radius
+        padding: space(8)
+        position: relative
+
+    .project
+        position: static
+        .project-content
+            .project-title
+                @include body-text
+        .media
+            align-items: center
+            aspect-ratio: 1
+            display: flex
+            justify-content: center
+
+    @include media-breakpoint-down(desktop)
+        .project
+            align-items: center
+            flex-direction: row
+            gap: var(--grid-gutter)
+            &-content
+                flex: 1
+            .media
+                margin: 0
+                width: columns(2)
+                img
+                    height: space(10)
+
+        > li + li
+            margin-top: $spacing-3
+
+    @include in-page-without-sidebar
+        > li
+            transition: background $color-duration ease
+            &:hover
+                background: $color-border-alt
+        &--list
+            .project
+                width: columns(4)
+
+        &--grid
+            @include grid(4)
+            .media
+                img
+                    height: pxToRem(86)

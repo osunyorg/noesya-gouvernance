@@ -1,0 +1,72 @@
+
+.block-features
+    &--grid
+        .features
+            .feature
+                .name
+                    @include h2
+                figure.media--image
+                    width: columns(3)
+                    img
+                        aspect-ratio: 1
+                        filter: grayscale(1)
+                        transition: filter $color-duration ease
+                &:hover
+                    figure.media--image 
+                        img
+                            filter: grayscale(0)
+
+        @include in-page-without-sidebar
+            .features
+                @include grid(2)
+        
+        @include media-breakpoint-down(desktop)
+            .features
+                .feature
+                    figure.media--image
+                        width: columns(6)
+
+
+.block-files
+    .files
+        @include in-page-without-sidebar
+            &--grid
+                @include grid(2)
+
+        .file
+            @include icon(download-line, before)
+            @include icon(document, after)
+            &::before
+                align-items: center
+                background: var(--color-text)
+                border: none
+                border-radius: 100%
+                color: var(--color-background)
+                display: flex
+                font-size: pxToRem(30)
+                justify-content: center
+                margin-right: var(--grid-gutter)
+            &::after
+                font-size: pxToRem(130)
+                order: -1
+            a,
+            figcaption
+                @include body-text
+            figcaption
+                color: var(--color-text-alt)
+
+            @include media-breakpoint-down(desktop)
+                flex-direction: column
+                &::before
+                    height: $spacing-5
+                    width: $spacing-5
+                    margin-left: pxToRem(90)
+                    transform: translateY(-50%)
+
+            @include media-breakpoint-up(desktop)
+                background: var(--color-background-alt)
+                border-radius: $btn-border-radius
+                padding: var(--grid-gutter)
+                &::before 
+                    margin-top: auto
+                    transform: translate(-50%, 50%)
