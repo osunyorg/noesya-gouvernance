@@ -36,6 +36,7 @@
         .file
             @include icon(download-line, before)
             @include icon(document, after)
+            transition: background $color-duration ease
             &::before
                 align-items: center
                 background: var(--color-text)
@@ -54,6 +55,9 @@
                 @include body-text
             figcaption
                 color: var(--color-text-alt)
+            
+            &:hover
+                background: $color-border-alt
 
             @include media-breakpoint-down(desktop)
                 flex-direction: column
@@ -68,5 +72,5 @@
                 border-radius: $btn-border-radius
                 padding: var(--grid-gutter)
                 &::before 
-                    margin-top: auto
-                    transform: translate(-50%, 50%)
+                    margin-top: pxToRem(100)
+                    transform: translateX(-50%)
