@@ -13,37 +13,7 @@
 // projects
 .projects__section,
 .projects_categories__term
-    .taxonomies-list--inline
-        gap: $spacing-5
-        .taxonomy-categories
-            > span
-                @include h3
-                font-family: $body-font-family
-                display: block
-                margin-bottom: $spacing-3
-
-        .taxonomy-categories-list
-            display: flex
-            flex-wrap: wrap
-            gap: $spacing-1
-            a, span
-                @include category-button
-            > li
-                .extendable-button[aria-expanded="true"]
-                    color: var(--color-background)
-                    background: var(--color-text)
-                ul
-                    border-top: none
-                    padding-left: 0
-
-    @include media-breakpoint-down(desktop)
-        .taxonomies-list--inline
-            .taxonomy-categories + .taxonomy-categories
-                margin-top: $spacing-4
-
-    @include media-breakpoint-up(desktop)
-        .taxonomies-list--inline
-            grid-template-columns: repeat(1, 1fr)
+    @include index-taxonomies-style
 
 .projects__page
     .projects-taxonomies
