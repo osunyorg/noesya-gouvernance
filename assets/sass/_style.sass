@@ -1,1 +1,23 @@
+.taxonomy-categories-list,
+.projects-taxonomies .terms
+    li
+        a
+            align-items: center
+            display: flex !important
+            gap: $spacing-1
+            &::before
+                color: inherit
 
+        &.page-strategic a,
+        &.page-committee a
+            @include icon(strategic, before)
+        &.page-legal a
+            @include icon(legal, before)
+        &.page-ethical a
+            @include icon(ethical, before)
+        &.page-economic a
+            @include icon(economic, before)
+        &.page-ecological a
+            @include icon(ecological, before)
+        &.page-security a
+            @include icon(security, before)
