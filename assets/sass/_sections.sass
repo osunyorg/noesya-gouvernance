@@ -15,6 +15,15 @@
 .projects_categories__term
     @include index-taxonomies-style
 
+    .projects
+        .project
+            .media
+                transition: filter $color-duration ease
+                @media (prefers-color-scheme: dark)
+                    filter: invert(1)
+                html.has-menu-opened &
+                    filter: invert(1)
+
 .projects__page
     .projects-taxonomies
         .taxonomy-children
@@ -50,9 +59,6 @@
 
     .project
         position: static
-        .project-content
-            .project-title
-                @include body-text
         .media
             align-items: center
             aspect-ratio: 1
@@ -79,7 +85,13 @@
         > li
             transition: background $color-duration ease
             &:hover
-                background: $color-border-alt
+                background: var(--color-border)
+
+        .project
+            .project-content
+                .project-title
+                    @include body-text
+    
         &--list
             .project
                 width: columns(4)
