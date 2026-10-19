@@ -47,6 +47,10 @@ from = "/assets/documents/2024/noesya-pra-1.0.pdf/index.html"
 to = "/documents/2024-plan-de-reprise-dactivite/"
 
 [[redirects]]
+from = "/documents/categories/strategiques/recommandations-du-comite-strategique/index.html"
+to = "/documents/categories/recommandations-du-comite-strategique/"
+
+[[redirects]]
 from = "/assets/documents/2023/charte-benevolat-1.1.pdf/index.html"
 to = "/documents/2024-charte-de-benevolat/"
 
