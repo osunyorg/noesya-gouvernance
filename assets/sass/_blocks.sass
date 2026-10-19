@@ -19,7 +19,10 @@
         @include in-page-without-sidebar
             .features
                 @include grid(2)
-        
+                .feature
+                    margin-bottom: $spacing-5
+                    .feature-description
+                        width: columns(5)
         @include media-breakpoint-down(desktop)
             .features
                 .feature
