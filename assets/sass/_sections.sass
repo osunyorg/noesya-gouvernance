@@ -24,18 +24,17 @@
                 html.has-menu-opened &
                     filter: invert(1)
 
-.projects__section
-    .project
-        .project-categories
-            @include body-text
-            margin-top: 0
-            li[class*="page-"]
-                display: none
-            a
-                color: var(--color-text-alt)
-                text-decoration-color: transparent
-                &:hover
-                    text-decoration-color: inherit
+.project
+    .project-categories
+        @include body-text
+        margin-top: 0
+        li[class*="page-"]
+            display: none
+        a
+            color: var(--color-text-alt)
+            text-decoration-color: transparent
+            &:hover
+                text-decoration-color: inherit
 
 .projects__page
     .projects-taxonomies
