@@ -103,3 +103,24 @@
             .media
                 img
                     height: pxToRem(86)
+
+.categories
+    &--grid
+        > li
+            background-color: var(--color-background-alt)
+            border-radius: $btn-border-radius
+            padding: space(8)
+            transition: background $color-duration ease
+            &:hover
+                background: var(--color-border)
+
+        .category-item
+            [class*="_category-title"]
+                @include h4
+
+        @include in-page-without-sidebar
+            .category-item
+                .media
+                    img
+                        margin: 0 auto
+                        width: columns(2)

@@ -3,8 +3,7 @@
 {{- partial "header/hero.html" (dict
   "title" $title
   "image" .Params.image
-  "sizes" site.Params.image_sizes.sections.posts.hero_single
-  "meta" ( partial "posts/single/meta.html" . )
+  "sizes" site.Params.image_sizes.sections.categories.hero_term
   "hero_text_complement" ( partial "custom/hero-breadcrumbs.html" . )
   "context" .
 ) -}}
