@@ -1,0 +1,4 @@
+{{ if or (eq .Type "projects_categories") (eq .Type "projects") }}
+  {{ $projects_section := site.GetPage "projects" }}
+  <a href="{{ $projects_section.Permalink }}">{{ $projects_section.Title }}</a>
+{{ end }}
