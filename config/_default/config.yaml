@@ -22,7 +22,6 @@ params:
     index:
       options:
         summary: false
-        categories: false
       taxonomies:
         display: true
         layout: inline

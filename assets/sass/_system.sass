@@ -18,3 +18,16 @@ main
             .is-svg 
                 img
                     width: offset(1) !important
+
+    // afficher 'Documents' en fil d'ariane
+    .projects_categories__term &,
+    .projects__page &
+        .hero-text
+            display: flex
+            flex-direction: column
+            gap: 0
+            a
+                @include h1
+                color: $color-title-alt
+                order: -1
+                text-decoration: none
