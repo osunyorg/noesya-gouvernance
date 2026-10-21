@@ -28,6 +28,7 @@
             .features
                 .feature
                     figure.media--image
+                        margin-bottom: $spacing-3
                         width: columns(6)
 
 .block-files
@@ -77,3 +78,9 @@
                 &::before 
                     margin-top: pxToRem(100)
                     transform: translateX(-50%)
+
+.block-siblings-navigation
+    .siblings-navigation
+        li
+            a, span
+                @include h4

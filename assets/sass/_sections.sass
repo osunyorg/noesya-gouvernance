@@ -19,9 +19,11 @@
         .project
             .media
                 transition: filter $color-duration ease
-                @media (prefers-color-scheme: dark)
-                    filter: invert(1)
+
                 html.has-menu-opened &
+                    filter: invert(1)
+
+                @media (prefers-color-scheme: dark)
                     filter: invert(1)
 
 .project
@@ -38,6 +40,12 @@
                 text-decoration-color: inherit
 
 .projects__page
+    .hero
+        &--image-portrait, 
+        &--image-square
+            figure
+                margin-bottom: var(--grid-gutter)
+
     .projects-taxonomies
         .taxonomy-children
             align-items: flex-start
